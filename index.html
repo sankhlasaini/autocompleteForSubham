@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>API</title>
+    <meta name="description" content="">
+
+    <!-- Mobile viewport optimized -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <!-- Custom CSS -->
+    <link href="css/custom.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="js/custom.js"></script>
+</head>
+
+<body>
+    <div id="quickSearchContainer">
+        <input type="search" id="autocomplete" placeholder="Search">
+        <div id="quickSearchDiv">
+            <ul id="quickSearch"></ul>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div id="selection" class="result">
+        Did You Mean
+        <span style="float:right"><button onclick="clearAll()">CLEAR ALL</button></span>
+        <br>
+        <br>
+        <ul id="text" class="questionList"></ul>
+    </div>
+
+    <div id="resultPanel" class="result">
+        Answer
+        <br>
+        <br>
+        <ul id="answer" class="resultList"></ul>
+    </div>
+
+
+</body>
+
+</html>

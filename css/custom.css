@@ -1,0 +1,104 @@
+body {
+    background-color: darkgray;
+}
+
+* {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#quickSearchDiv {
+    position: absolute;
+    background-color: #fff;
+    list-style: none;
+    width: 500px;
+    display: none;
+    margin-top: 1px;
+    border: 1px solid #CCC;
+    min-height: 0px;
+    text-align: left;
+    z-index: 999;
+}
+
+#quickSearchDiv ul li {
+    margin: 0;
+    padding: 0;
+    font-variant: normal;
+    color: #000;
+}
+
+#quickSearchDiv ul li a {
+    font-size: 15px;
+    border-bottom: 1px solid #F7F7F7;
+    color: #000;
+    display: block;
+    margin: 0;
+    padding: 10px;
+    text-decoration: none;
+}
+
+#quickSearchDiv ul li a:hover {
+    background: #1b9bff;
+    padding-bottom: 8px;
+    color: #fff;
+}
+
+#autocomplete {
+    position: relative;
+    margin: auto;
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+    color: dimgray;
+    line-height: 100%;
+    font-size: 18px;
+    border: 1px solid #223444;
+    outline: none;
+}
+
+#quickSearchContainer {
+    margin: auto;
+    width: 500px;
+}
+
+.result {
+    background: white;
+    padding: 30px;
+    width: 80%;
+    margin: auto;
+    display: none;
+}
+
+.resultList {
+    color: dimgray;
+}
+
+.questionList li {
+    color: dimgray;
+    padding: 10px;
+}
+
+.questionList li:hover {
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    background: darkgray;
+    padding: 10px;
+}
+
+.questionList li:hover {
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    background: darkgray;
+    padding: 10px;
+}
+
+button {
+    cursor: pointer;
+}
